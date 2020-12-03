@@ -1,4 +1,4 @@
-file1 = open('day1/input', 'r')
+file1 = open('input', 'r')
 Lines = file1.readlines()
 
 valid = 0

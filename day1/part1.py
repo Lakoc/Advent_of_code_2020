@@ -1,10 +1,10 @@
-file1 = open('input', 'r')
-Lines = file1.readlines()
+file = open('input', 'r')
+lines = file.readlines()
 
 valid = 0
 values = []
 # Strips the newline character
-for line in Lines:
+for line in lines:
     values.append(int(line.rstrip()))
 
 for val1 in values:

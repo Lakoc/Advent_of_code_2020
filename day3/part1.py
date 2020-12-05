@@ -1,10 +1,10 @@
-file1 = open('input', 'r')
-Lines = file1.readlines()
+file = open('input', 'r')
+lines = file.readlines()
 
 trees = 0
 # Strips the newline character
 x = 0
-for line in Lines:
+for line in lines:
     line = line.rstrip()
     if line[x % len(line)] == '#':
         trees += 1

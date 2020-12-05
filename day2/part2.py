@@ -1,9 +1,9 @@
-file1 = open('input', 'r')
-Lines = file1.readlines()
+file = open('input', 'r')
+lines = file.readlines()
 
 valid = 0
 # Strips the newline character
-for line in Lines:
+for line in lines:
     line.rstrip()
     reg, passwd = line.split(': ')
     values, letter = reg.split(' ')

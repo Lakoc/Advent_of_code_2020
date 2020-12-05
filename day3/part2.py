@@ -1,11 +1,11 @@
-file1 = open('input', 'r')
-Lines = file1.readlines()
+file = open('input', 'r')
+lines = file.readlines()
 
 trees = 0
 # Strips the newline character
 x = 0
 y = 0
-for line in Lines:
+for line in lines:
     if y % 2:
         y += 1
         continue

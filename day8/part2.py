@@ -1,4 +1,4 @@
-file = open('day8/input', 'r')
+file = open('input', 'r')
 lines = file.readlines()
 
 last_inst_offset = len(lines) - 1

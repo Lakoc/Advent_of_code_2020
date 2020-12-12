@@ -16,7 +16,7 @@ def change_direction(angle):
     return directions[(current_position + new_dir_diff) % 4]
 
 
-with open('day12/input') as file:
+with open('input') as file:
     lines = file.readlines()
     direction = 'E'
     position = [0, 0]

@@ -1,5 +1,4 @@
-with open('day12/input') as file:
-    directions = ['N', 'E', 'S', 'W']
+with open('input') as file:
     lines = file.readlines()
     position = [0, 0]
     waypoint_dir = 1

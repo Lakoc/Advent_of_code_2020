@@ -52,7 +52,7 @@ def process_step():
     return changes, new_arr
 
 
-with open('day11/input') as file:
+with open('input') as file:
     lines = file.readlines()
     array = process_input()
     steps = 0
